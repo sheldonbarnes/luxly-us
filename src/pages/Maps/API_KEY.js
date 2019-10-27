@@ -1,1 +1,2 @@
-export const API_KEY = 'YOUR_API_KEY_HERE'
+export const API_KEY = process.env.GOOGLE_MAP_KEY;
+
