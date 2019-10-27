@@ -1,8 +1,15 @@
 const path = require('path');
 const webpack = require('webpack');
+var merge = require('webpack-merge');
 
 function resolveSrc(_path) {
   return path.join(__dirname, _path);
+}
+
+module.exports = {
+  configureWebpack: config => {
+    merge(config, {VUE_APP_GOOGLE_MAP_KEY: process.env.VUE_APP_GOOGLE_MAP_KEY});
+  }
 }
 
 module.exports = {
