@@ -1,6 +1,6 @@
 # Change Log
 
-## [2.0.0] 2019-02-14
+## [2.0.0] 2019-02-15t
  - Update to Bootstrap 4
  - Update to Vue CLI 3
  - Several UI fixes & improvements
